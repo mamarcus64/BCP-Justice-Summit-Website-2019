@@ -49,7 +49,7 @@
             var percentComplete = 0;
             var sessionList = new Array();
             
-            for (var block = 1; block <= 3; block++) {
+            for (var block = 1; block <= 4; block++) {
               if (response[block] != null) {
 
                 percentComplete++;
@@ -83,7 +83,7 @@
             //   $("#" + sessionList[session]).text("Session Selected");
             // }
 
-          percentComplete = (percentComplete / 3) * 100;
+          percentComplete = (percentComplete / 4) * 100;
           $(".progress-bar").prop("aria-valuenow",percentComplete);
           $(".progress-bar").css("width", (percentComplete + "%"));
           $(".progress-bar").html(percentComplete.toFixed(1) + "% Complete");
@@ -293,7 +293,7 @@
             <h4 class="modal-title">Breakout Session Registration</h4>
           </div>
           <div class="modal-body">
-            <p>This website lets you register for breakout sessions for the <strong>2018 Justice Summit on Racism</strong> at Bellarmine. Breakout sessions are built into the Bellarmine schedule for the week of March 19th. Sessions in Blocks 1 and 2 (held on Tuesday, March 20th) will be presented by Bellarmine faculty and students, and sessions in Block 3 (held on Wednenday, March 21st) will be presented by guests to our campus.<br /><br />Use the tabs at the top to switch between blocks. Click/tap on sessions to see details and register. All changes are saved automatically.<br /><br />If you are <strong>presenting one or two sessions</strong>, please select your own session(s). If you have or will have a <strong>planned absence</strong> for Tuesday, select the "Planned Absence" session for Blocks 1 and 2; do the same for Block 3 if you are missing Wednesday.<br /><br />If you have any questions or need help, please contact us by <a href="mailto:jeffrey.ma18@bcp.org?subject=Justice+Summit+App">clicking here</a>. If you need to reach this popup again, select the "Help" tab at the top of the page.<br /><br /><a href="https://instagram.com/jeepartb" target="_blank">@JeffMa</a> <br /><a href="https://instagram.com/will.portman" target="_blank">@WillPortman</a></p>
+            <p>This website lets you register for breakout sessions for the <strong>2019 Justice Summit on Gender</strong> at Bellarmine. Breakout sessions are built into the Bellarmine schedule for the week of March 19th. Sessions in Blocks 1 and 2 (held on Tuesday, March 20th) will be presented by Bellarmine faculty and students, and sessions in Block 3 (held on Wednenday, March 21st) will be presented by guests to our campus.<br /><br />Use the tabs at the top to switch between blocks. Click/tap on sessions to see details and register. All changes are saved automatically.<br /><br />If you are <strong>presenting one or two sessions</strong>, please select your own session(s). If you have or will have a <strong>planned absence</strong> for Tuesday, select the "Planned Absence" session for Blocks 1 and 2; do the same for Block 3 if you are missing Wednesday.<br /><br />If you have any questions or need help, please contact us by <a href="mailto:marcus.ma20@bcp.org?subject=Justice+Summit+App">clicking here</a>. If you need to reach this popup again, select the "Help" tab at the top of the page.<br /><br /><a href="https://instagram.com/akashv20" target="_blank">@akashv20</a> <br /><a href="https://instagram.com/will.portman" target="_blank">@WillPortman</a></p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -307,6 +307,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
             <h4 class="modal-title">Your Registration is Complete!</h4>
           </div>
           <div class="modal-body">
