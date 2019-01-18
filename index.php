@@ -3,6 +3,8 @@
   if (!isset($_COOKIE["justicesummit_studentfirst"])) {
     header("Location: login.php");
   }
+  else
+  	header("Location: indexNonViewOnly.php");
 
 ?>
 

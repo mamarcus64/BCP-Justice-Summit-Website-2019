@@ -23,8 +23,8 @@
 <file name="fixSameSessionTwoBlock.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131911898300000000" remote="131919782880000000" Dst="1" />
 <file name="fixSameWednesdayBlock.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131911898240000000" remote="131919782880000000" Dst="1" />
 <file name="getAllSessions.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131920907701860977" remote="131920907710000000" Dst="1" />
-<file name="index.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131921396311251759" remote="131921396290000000" Dst="1" />
-<file name="indexNonViewOnly.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131921383810000000" remote="131921383780000000" Dst="1" />
+<file name="index.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131923143786735247" remote="131923143790000000" Dst="1" />
+<file name="indexNonViewOnly.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131922739720192020" remote="131922739740000000" Dst="1" />
 <file name="indexViewOnly.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131921387813844125" remote="131921387790000000" Dst="1" />
 <file name="login.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131919790843803714" remote="131919790840000000" Dst="1" />
 <file name="logout.php" server="times.bcp.org//var/www/html/www.bellarminenews.com/justice19/" local="131911898260000000" remote="131919782890000000" Dst="1" />
