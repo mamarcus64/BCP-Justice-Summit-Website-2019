@@ -34,9 +34,9 @@
 
 		$sessions = json_decode(file_get_contents("http://times.bcp.org/justice/userSessions.php?studentid=$studentid"),true);
 
-		$mail->From = "Chanan.Walia16@bcp.org";
-		$mail->FromName = "Walia, Chanan '16";
-		$mail->AddBCC('chanan.walia16@bcp.org');
+		$mail->From = "Marcus.Ma20@bcp.org";
+		$mail->FromName = "Ma, Marcus '20";
+		$mail->AddBCC('marcus.ma20@bcp.org');
 		$mail->Subject = "Reminder: Justice Summit Breakouts for $studentfirst $studentlast ($studentid)";
 
 		$body = file_get_contents("http://times.bcp.org/justice/email_template.html");
