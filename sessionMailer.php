@@ -32,9 +32,9 @@
 		$id = $session["id"];
 		$presenteremail = $session["presenteremail"];
 
-		$mail->From = "Chanan.Walia16@bcp.org";
-		$mail->FromName = "Walia, Chanan '16";
-		$mail->AddBCC("Chanan.Walia16@bcp.org");
+		$mail->From = "Marcus.Ma20@bcp.org";
+		$mail->FromName = "Ma, Marcus '20";
+		$mail->AddBCC("Marcus.Ma20@bcp.org");
 		$mail->Subject = "Email List for your Bellarmine Breakout Session";
 
 		$body = file_get_contents("http://times.bcp.org/justice/session_email_template.html");
